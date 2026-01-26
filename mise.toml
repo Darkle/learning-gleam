@@ -11,5 +11,5 @@ env_file = ""
 color = false
 
 [tasks]
-build = "gleam build"
+build = { run = "gleam build", description = "Run gleam build" }
 thing = "echo $FOO"
